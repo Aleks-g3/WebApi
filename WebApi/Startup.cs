@@ -36,7 +36,7 @@ namespace WebApi
             services.AddCors();
             services.AddControllers().AddNewtonsoftJson();
             services.AddDbContext<DataContext>(opts =>
-    opts.UseSqlServer("Data Source=(local);Initial Catalog=Kanapson;User ID=sa;Password=zaq1@WSX"));
+    opts.UseSqlServer("xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"));
             services.AddAutoMapper(typeof(Startup));
             // configure strongly typed settings objects
             var appSettingsSection = Configuration.GetSection("AppSettings");
